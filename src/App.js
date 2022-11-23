@@ -14,8 +14,8 @@ const todos = [
 function App() {
   return (
     <React.Fragment>
-      <TodoCounter />
       <TodoSearch />
+      <TodoCounter />
       <TodoList>
         {
           todos.map(todo => (
